@@ -8,16 +8,6 @@ Const
 	MysqlDateTimeFormat='yyyy-mm-dd hh:nn:ss';
 	
 Type
-	T_Reciter_Ststus=Record
-						id					:int64;
-						qid					:string;
-						time				:int64;
-						RecordType			:string;
-						fromQQ				:int64;
-						content				:ansistring;
-						resources			:ansistring;
-						receipt				:ansistring;
-					end;
 	T_DictTree	= 	record
 						len	:	longint;
 						cont:	Array Of Record
